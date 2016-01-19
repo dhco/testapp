@@ -3555,4 +3555,5 @@ return array(
     'Google_Task_Runner' => $vendorDir . '/google/apiclient/src/Google/Task/Runner.php',
     'Google_Utils_UriTemplate' => $vendorDir . '/google/apiclient/src/Google/Utils/UriTemplate.php',
     'SessionHandlerInterface' => $vendorDir . '/symfony/http-foundation/Symfony/Component/HttpFoundation/Resources/stubs/SessionHandlerInterface.php',
+    'Symfony\\Component\\HttpFoundation\\Resources\\stubs\\FakeFile' => $vendorDir . '/symfony/http-foundation/Symfony/Component/HttpFoundation/Resources/stubs/FakeFile.php',
 );
