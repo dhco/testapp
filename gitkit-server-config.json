@@ -1,0 +1,8 @@
+{
+  "clientId": "309792206339-40l5qqh9104b88ggrlr9gukj4lqr4vak.apps.googleusercontent.com",
+  "projectId": "testrtime",
+  "serviceAccountEmail": "test-327@testrtime.iam.gserviceaccount.com",
+  "serviceAccountPrivateKeyFile": "/testrtime-d240ffcfb7f4.p12",
+  "widgetUrl": "http://rtime23.herokuapp.com/callback",
+  "cookieName": "gtoken"
+}
