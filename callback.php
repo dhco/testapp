@@ -9,25 +9,12 @@
     <link type="text/css" rel="stylesheet" href="//www.gstatic.com/authtoolkit/css/gitkit.css" />
     <script type="text/javascript">
       var config = {
-          apiKey: 'AIza...',
-          signInSuccessUrl: '/',
-          signInOptions: ["google", "password"],
-          oobActionUrl: '/',
+          "apiKey": 'AIzaSyAkj3rIKSg9iJdzqvRcGHXXkoGdQYVNd84',
+          "signInSuccessUrl": "http://rtime23.herokuapp.com/proclog.php",
+          "signInOptions": ["google", "password"],
+          oobActionUrl: 'http://rtime23.herokuapp.com/logemail.php',
           siteName: 'this site',
-
-          // Optional - function called after sign in completes and before
-          // redirecting to signInSuccessUrl. Return false to disable
-          // redirect.
-          // callbacks: {
-          //  signInSuccess: function(tokenString, accountInfo,
-          //    opt_signInSuccessUrl) {
-          //      return true;
-          //    }
-          // },
-
-          // Optional - key for query parameter that overrides
-          // signInSuccessUrl value (default: 'signInSuccessUrl')
-          // queryParameterForSignInSuccessUrl: 'url'
+          "signOutUrl": "http://rtime23.herokuapp.com/signout.php"
 
           // Optional - URL of site ToS (linked and req. consent for signup)
           // tosUrl: 'http://example.com/terms_of_service',
